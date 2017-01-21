@@ -1,0 +1,290 @@
+<html>
+
+<body>
+    <h1>
+    Forms test
+  </h1>
+    <p>
+        In this test we will test forms:
+        <ol>
+          <li>
+            <a href="#input">Input</a>
+          </li>
+          <li>
+            <a href="#textarea">Textarea</a>
+          </li>
+          <li>
+            <a href="#radio">Radio</a>
+          </li>
+          <li>
+            <a href="#email">Select</a>
+          </li>
+          <li>
+            <a href="#select">Mselect</a>
+          </li>
+          <li>
+            <a href="#upload">Upload</a>
+          </li>
+          <li>
+            <a href="#submit">Submit</a>
+          </li>
+          <li>
+            <a href="#fieldset">Fieldset</a>
+          </li>
+          <li>
+            <a href="#validation">Validation</a>
+          </li>
+          <li>
+            <a href="#date">Date</a>
+          </li>
+          <li>
+            <a href="#email">Email</a>
+          </li>
+          <li>
+            <a href="#html5">HTML5</a>
+          </li>
+          <li>
+            <a href="#example">Example</a>
+          </li>
+        </ol>
+    </p>
+
+    <hr />
+
+    <h3 id="input">Input</h3>
+
+    <form action="http://www.excample.com/login.php">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+
+    <hr />
+
+    <h3 id="textarea">Textarea</h3>
+
+    <form action="http://www.example.com/commets.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4">Enter your comments...
+      </textarea>
+    </form>
+
+    <hr />
+
+    <h3 id="radio">Radio</h3>
+
+    <form action="http://www.example.com/profile.php">
+      <br />
+      <p>What kind of music do you like to listen?</p>
+       <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+       <input type="radio" name="genre" value="pop" /> Pop
+       <input type="radio" name="genre" value="jazz" /> Jazz
+     </p>
+   </form>
+
+   <hr />
+
+   <h3 id="Checkbox">Email</h3>
+
+   <form action="http://www.example.com/profile.php">
+     <p>Please select your favourite music service(s):
+       <br />
+       <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+       <input type="checkbox" name="service" value="lastfm" /> LastFM
+       <input type="checkbox" name="service" value="spotify" /> Spotify
+     </p>
+   </form>
+
+   <hr />
+
+   <h3 id="select">Select</h3>
+
+   <form action="http://www.example.com/profile.php">
+     <p>What device do you listen music on</p>
+     <select name="devices">
+       <option value="ipod">iPod</option>
+       <option value="radio">Radio</option>
+       <option value="computer">Computer</option>
+     </select>
+   </form>
+
+   <hr />
+
+   <h3 id="Mselect">Multiple select</h3>
+
+   <form action="http://www.example.com/profile.php">
+     <p>Do you play any of the following intruments?
+       You can select multiple by holding control key on PC or
+       command key on a MAc
+     </p>
+     <select name="instruments" size="3" multiple="multiple">
+       <option value="guitar" selected="selected">Guitar</option>
+       <option value="drums">Drums</option>
+       <option value="keyboard">Keyboard</option>
+       <option value="bass">Bass</option>
+     </select>
+   </form>
+
+   <hr />
+
+   <h3 id="upload">Upload</h3>
+
+   <form action="http://www.example.com/upload.php" method="post">
+     <p>Upload your song in MP3 format:</p>
+     <input type="file" name="user song" /><br />
+     <input type="submit" value="Upload" />
+   </form>
+
+   <hr />
+
+   <h3 id="Submit">Submit</h3>
+
+   <form action="http://www.example.com/subscribe.php">
+     <p>Subscribe to our email list:</p>
+     <input type="text" name="email" />
+     <input type="submit" name="subscribe" value="Subscribe" />
+   </form>
+
+   <hr />
+
+   <h3 id="fieldset">Fieldset</h3>
+
+   <fieldset>
+     <legend>Contact details</legend>
+     <label>Email:<br />
+       <input type="text" name="email" />
+     </label><br />
+     <label>Mobile:<br />
+       <input type="text" name="mobile" />
+     </label><br />
+     <label>Telephone:<br />
+       <input type="text" name="telephone" />
+     </label>
+   </fieldset>
+
+   <hr />
+
+   <h3 id="validation">Validation</h3>
+
+   <form action="http://www.example.com/login/" method="post">
+     <label for="username">Username:</label>
+     <input type="text" name="username" required="required" /></title><br />
+     <label for="password">Password:</label>
+     <input type="password" name="password" required="required" />
+     <input type="submit" value="Submit" />
+   </form>
+
+   <hr />
+
+   <h3 id="date">Date</h3>
+
+   <form action="http://www.example.com/bookings/" method="post">
+     <label for="username">Departure date:</label>
+     <input type="date" name="depart" />
+     <input type="submit" value="Submit" />
+   </form>
+
+   <hr />
+
+   <h3 id="email">Email</h3>
+
+   <form action="http://www.example.org/subscribe.php">
+     <p>Please enter your email address:</p>
+     <input type="email" name="email" />
+     <input type="submit" value="Submit" />
+   </form>
+
+   <hr />
+
+   <h3 id="html5">HTML5 Input</h3>
+
+   <form action="http://www.example.org/subscribe.php">
+     <p>Please enter your email address:</p>
+     <input type="email" name="email" />
+     <input type="submit" value="Submit" />
+   </form>
+
+   <br />
+
+   <form action="http://www.example.org/profile.php">
+     <p>Please enter your website address:</p>
+     <input type="url" name="website" />
+     <input type="submit" value="Submit" />
+   </form>
+
+   <br />
+
+   <form action="http://www.example.org/search.php">
+     <p>Search:</p>
+     <input type="search" name="search" placeholder="Enter keyword" />
+     <input type="submit" value="Search" />
+   </form>
+
+   <br />
+
+   <form action="http://www.example.org/search.php">
+     <p>Search:</p>
+     <input type="search" name="search" placeholder="Enter keyword" />
+     <input type="submit" value="Search" />
+   </form>
+
+   <hr />
+
+   <h3 id="example">Example</h3>
+
+   <fieldset>
+     <legend>Your Details:</legend>
+     <label>Name:
+     <input type="text" name="name" />
+     </label>
+     <br />
+     <label>Email:
+     <input type="text" name="email" />
+     </label>
+   </fieldset>
+
+   <br />
+
+   <fieldset>
+     <legend>Your Review:</legend>
+     <p>
+       <label for="source">How did you hear about us?</label>
+       <select name="source" id="source">
+         <option value="google">Google</option>
+         <option value="yahoo">Yahoo</option>
+         <option value="ad">Ad</option>
+       </select>
+     </p>
+
+     <p>Would you visit again?
+       <br />
+       <label>
+         <input type="radio" name="rating" value="yes" /> Yes
+       </label>
+       <label>
+         <input type="radio" name="rating" value="no" /> No
+       </label>
+       <label>
+         <input type="radio" name="rating" value="maybe" /> Maybe
+       </label>
+     </p>
+
+     <p>
+     <label for="comments">Comments:</label>
+     <br />
+     <textarea id="comments" cols="30" rows="4"></textarea>
+     </p>
+
+     <label>
+     <input type="checkbox" id="signup" checked="checked" />
+     Sign me up for email updates
+     </label>
+     <br />
+     <input type="submit" value="Submit review" />
+
+  </body>
+
+</html>
